@@ -1,7 +1,7 @@
 # 🧪 TestNG Automation Framework – Homework 1 & 2
 
 This repository contains two TestNG-based automation projects demonstrating:
-- Web UI testing using Selenium.
+- Web testing using Selenium.
 - Data-driven testing using Apache POI and Excel files.
 - Test execution and reporting with TestNG.
 
