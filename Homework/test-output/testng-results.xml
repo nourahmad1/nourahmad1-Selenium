@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-06T13:39:17 CET" name="Default suite" finished-at="2025-11-06T13:39:29 CET" duration-ms="12293">
+    <groups>
+    </groups>
+    <test started-at="2025-11-06T13:39:17 CET" name="Default test" finished-at="2025-11-06T13:39:29 CET" duration-ms="12293">
+      <class name="TestNGHomework2.BallardDesignsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGHomework2.BallardDesignsTest@1ce24091]" started-at="2025-11-06T13:39:17 CET" name="setUp" finished-at="2025-11-06T13:39:26 CET" duration-ms="8725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoIsDisplayed()[pri:1, instance:TestNGHomework2.BallardDesignsTest@1ce24091]" started-at="2025-11-06T13:39:26 CET" name="verifyLogoIsDisplayed" finished-at="2025-11-06T13:39:26 CET" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoIsDisplayed -->
+        <test-method signature="clickAccountButton()[pri:2, instance:TestNGHomework2.BallardDesignsTest@1ce24091]" started-at="2025-11-06T13:39:26 CET" name="clickAccountButton" finished-at="2025-11-06T13:39:26 CET" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccountButton -->
+        <test-method signature="verifyMessage()[pri:3, instance:TestNGHomework2.BallardDesignsTest@1ce24091]" started-at="2025-11-06T13:39:26 CET" name="verifyMessage" finished-at="2025-11-06T13:39:28 CET" depends-on-methods="TestNGHomework2.BallardDesignsTest.clickAccountButton" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessage -->
+        <test-method signature="loginToAccount()[pri:4, instance:TestNGHomework2.BallardDesignsTest@1ce24091]" started-at="2025-11-06T13:39:28 CET" name="loginToAccount" finished-at="2025-11-06T13:39:29 CET" depends-on-methods="TestNGHomework2.BallardDesignsTest.clickAccountButton" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAccount -->
+        <test-method is-config="true" signature="Down()[pri:0, instance:TestNGHomework2.BallardDesignsTest@1ce24091]" started-at="2025-11-06T13:39:29 CET" name="Down" finished-at="2025-11-06T13:39:29 CET" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+      </class> <!-- TestNGHomework2.BallardDesignsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
