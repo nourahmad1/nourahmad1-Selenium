@@ -57,8 +57,8 @@ Automate login test cases using data-driven testing from an Excel file.
 
 | Email | Password | Expected Result |
 |--------|-----------|-----------------|
-| invalid@email | *(empty)* | Error message |
-| valid@email.com | wrongPass123 | Error message |
+| invalid email | *(empty)* | Error message |
+| valid@email.com | wrongPass | Error message |
 | valid@email.com | correctPass | Login success |
 
 ### 🧾 Test Steps
