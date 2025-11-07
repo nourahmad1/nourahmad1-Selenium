@@ -8,7 +8,6 @@ This repository contains two TestNG-based automation projects demonstrating:
 ---
 
 
----
 
 ## 🧰 Technologies Used
 
