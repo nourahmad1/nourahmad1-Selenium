@@ -30,16 +30,16 @@ public class BallardDesignsTest{
 		        Assert.assertTrue(logoDisplayed,"Logo should be displayed on the homepage");}
 
 		    @Test(priority=2)
-		    public void clickAccountButton() {
-		        try {
+		    public void clickAccountButton(){
+		        try{
 		            driver.findElement(By.xpath("//*[@id=\"app-header\"]/header/div[3]/div/div[4]/div[3]/a")).click();
 		            System.out.println("Account button clicked successfully.");
-		        } catch (Exception e){
+		        }catch (Exception e){
 		            System.out.println("Account button not found or not clickable.");
 		        }}
 
 		    @Test(priority=3,dependsOnMethods="clickAccountButton")
-		    public void verifyMessage() throws InterruptedException {
+		    public void verifyMessage() throws InterruptedException{
 		        Thread.sleep(2000);
 		        String actualText = driver.findElement(By.xpath("//*[@id=\"BDLoginMessageNormal\"]/p[1]")).getText();
 		        String expectedText = "Welcome back! To access your account, please enter your email address and password and click Sign In.";
@@ -47,14 +47,14 @@ public class BallardDesignsTest{
 		        Assert.assertEquals(actualText, expectedText,"message should match");}
 
 		    @Test(priority=4,dependsOnMethods ="clickAccountButton")
-		    public void loginToAccount() {
+		    public void loginToAccount(){
 		        driver.findElement(By.cssSelector("input[data-analytics-name='email']")).sendKeys("nourbzour65@gmail.com");
 		        driver.findElement(By.cssSelector("input[data-analytics-name='password']")).sendKeys("Noor@123456");
 		        driver.findElement(By.cssSelector("button[data-analytics-name='login']")).click();
                 System.out.println("Login attempted with provided credentials.");
 		    }
 		    @AfterClass
-		    public void Down() {
+		    public void Down(){
 		             driver.quit();
 		            System.out.println("Browser closed successfully."); }
 

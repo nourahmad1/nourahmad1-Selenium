@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGHomework2.BallardDesignsTest">
+      <class name="TestNG.Homework.TestWithExcel">
         <methods>
+          <include name="loginUsingExcel" invocation-numbers="1"/>
           <include name="down"/>
-          <include name="clickSignInRegister"/>
-          <include name="navigateToHomePage"/>
-          <include name="verifySignInPageText"/>
-          <include name="login"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- TestNGHomework2.BallardDesignsTest -->
+      </class> <!-- TestNG.Homework.TestWithExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
