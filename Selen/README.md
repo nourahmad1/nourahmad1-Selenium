@@ -24,7 +24,7 @@ This project contains **Selenium WebDriver automation scripts in Java** to test 
 
 3. **Login workflow**
    - Click on the `My account` link.
-   - Verify login form title equals: **`Registered Members`**.
+   - Verify login form title equals: **`SIGN IN`**.
    - Enter valid email and password.
    - Click **Login**.
 
@@ -35,7 +35,7 @@ This project contains **Selenium WebDriver automation scripts in Java** to test 
 ---
 
 ## 🛠 Tools & Technologies
-- **Language:** Java 11+  
+- **Language:** Java  
 - **Testing:** Selenium WebDriver  
 - **Browser:** ChromeDriver  
 - **Build Tool:** Maven   
