@@ -13,7 +13,7 @@ This repository contains two TestNG-based automation projects demonstrating:
 
 | Tool | Purpose |
 |------|----------|
-| **Java 8+** | Core programming language |
+| **Java** | Core programming language |
 | **Selenium WebDriver** | Web browser automation |
 | **TestNG** | Test framework for structure & reporting |
 | **Apache POI** | Reading/writing Excel files |
