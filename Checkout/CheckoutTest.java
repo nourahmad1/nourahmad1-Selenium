@@ -65,7 +65,7 @@ public class CheckoutTest {
         cartPage.goToCheckout();
 
        
-        if (Config.getUserType().equals("guest")) {
+  
             checkoutPage.fillGuestCheckoutForm(
                 "guest@email.com",
                 "John",
@@ -74,7 +74,7 @@ public class CheckoutTest {
                 "10001",
                 "2125551111"
             );
-        }
+        
 
         System.out.println("Checkout process completed up to payment");
 
