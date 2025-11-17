@@ -39,7 +39,7 @@ public class CheckoutTest {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://devwcs3.ballarddesigns.com/?aka_bypass=5C73514EE7A609054D81DE61DD9CA3D6");
+        driver.get("https://devwcs5.ballarddesigns.com/?aka_bypass=5C73514EE7A609054D81DE61DD9CA3D6");
 
         ProductPage productPage=new ProductPage(driver);
         CartPage cartPage=new CartPage(driver);
