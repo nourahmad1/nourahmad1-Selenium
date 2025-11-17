@@ -31,10 +31,12 @@ public class TestWithExcel{
         driver.get("https://www.frontgate.com/ShoppingCartView");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        try{
-            driver.findElement(By.cssSelector("button[data-analytics-name='navigate_back']")).click();
+        /*try{
+           // driver.findElement(By.cssSelector("button[data-analytics-name='navigate_back']")).click();
         } catch(Exception e){
-            System.out.println("Back button not available");   }}
+            System.out.println("Back button not available");   
+            }*/
+       }
 
     @DataProvider(name = "loginUsers")
     public Object[][] fetchLoginData() throws Exception{

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Homework.TestWithExcel">
+      <class name="Checkout.CheckoutTest">
         <methods>
-          <include name="loginUsingExcel" invocation-numbers="1"/>
-          <include name="down"/>
-          <include name="setup"/>
+          <include name="checkoutFlow" invocation-numbers="1 2 3 4 5"/>
         </methods>
-      </class> <!-- TestNG.Homework.TestWithExcel -->
+      </class> <!-- Checkout.CheckoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

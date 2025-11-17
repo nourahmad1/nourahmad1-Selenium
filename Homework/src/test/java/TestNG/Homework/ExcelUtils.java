@@ -6,8 +6,8 @@ import org.apache.poi.xssf.usermodel.*;
 
 public class ExcelUtils{
 
-    private static XSSFWorkbook workbook;
-    private static XSSFSheet sheet;
+    static XSSFWorkbook workbook;
+    static XSSFSheet sheet;
 
     public static void open(String path,String sheetName)throws Exception{
         FileInputStream fis=new FileInputStream(path);
