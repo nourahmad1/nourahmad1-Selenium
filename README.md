@@ -1,6 +1,6 @@
 # 🧪 Automation Projects Repository
 
-This repository contains **two separate automation projects**, each in its own folder. Check the README inside each folder for full details.  
+This repository contains **three separate automation projects**, each in its own folder. Check the README inside each folder for full details.  
 
 ---
 
@@ -14,8 +14,12 @@ This repository contains **two separate automation projects**, each in its own f
   TestNG-based automation projects (**Homework 1 & 2**).  
   👉 See [`Homework/README.md`](Homework/README.md) for details.  
 
+- **`Checkout`** 🛒  
+  Selenium + TestNG automation for **Ballard Designs checkout process**, including product selection, shipping method verification, personalization, and PayPal payment.  
+  👉 See [`Checkout/README.md`](Checkout/README.md) for details.  
+
 ---
 
 ✅ **Note:**  
 - Each folder is a **standalone project** with its own README.  
-- Open the respective folder in your IDE to run the tests.  
+- Open the respective folder in your IDE to run the tests.
